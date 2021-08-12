@@ -1,0 +1,122 @@
+/* elements */
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-style: italic;
+}
+
+body {
+    line-height: 2em;
+}
+
+
+li {
+    margin-left: 2em;
+}
+
+
+button {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border: solid;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(73, 73, 73);
+    border-color: rgb(73, 73, 73);
+    border: solid;
+}
+
+header {
+    background-image: url("../Endless-Constellation.svg");
+    margin-top: 0.5em;
+}
+
+
+ header, section, #nav {
+    margin-bottom: 5em;
+    
+ }
+
+ section {
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+
+ textarea {
+    resize: none;
+ }
+
+/* id */
+#profile-pic {
+    width: 15em;
+    border-radius: 50%;
+}
+
+#links {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#bio {
+    font-weight: lighter;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#nav {
+    width: 2em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#send-email {
+    margin: 0.5em 0 0.5em 0;
+}
+/* classes */
+.center {
+    text-align: center;
+}
+
+img.logos {
+    width: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+ul.tasks {
+    list-style-type: disc;
+}
+
+ul.nested {
+    list-style-type: square;
+}
+
+ul.navbar {
+    list-style-type: none;
+}
+
+li.navlink {
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+
+hr.thin {
+    height: 1px;
+    border-width: 0;
+    color: rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    width: 70%;
+ }

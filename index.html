@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Brie Haynes</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/bold.png">
+</head>
+
+<body>
+    <header class="center">
+        <img id="profile-pic" src="images/profile-pic.jpg" alt="Profile picture">
+        <h1>brie haynes.</h1>
+
+        <div id="links">
+            <a href="https://github.com/brieyana" target="_blank">
+                <img id="github-logo" class="logos" src="images/github-logo.svg" alt="GitHub logo">
+            </a>
+            <a href="https://www.linkedin.com/in/brie-haynes7/" target="_blank">
+                <img id="linkedin-logo" class="logos" src="images/linkedin-logo.svg" alt="LinkedIn logo">
+            </a>
+        </div>
+
+        <div id="bio">
+            <p>Computer Science major with <br>an interest in web development,<br>mechanical keyboards,
+                and instant <br>photography.</p>
+        </div>
+
+    </header>
+
+    <hr class="thin">
+
+    <section id="projects">
+        <h2>projects and experience</h2>
+        <div>
+            <h3>Pet Finder</h3>
+            <p>A web-based application that connects prospective pet owners to local animal shelters.</p>
+            <ul class="tasks">
+                <li>Developed using HTML, CSS, and React</li>
+                <li>Implemented back-end with Axios library
+                    <ul class="nested">
+                        <li>Tested integrity of API with Postman</li>
+                    </ul>
+                </li>
+                <li>Deployed application using Heroku</li>
+            </ul>
+
+            <div class="center">
+                <a href="https://github.com/Codubee/PetFinderTTH2-3" title="GitHub Repo" target="_blank">
+                    <img id="pet-finder-demo" alt="Pet Finder demo">
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <h3>HAK</h3>
+            <div class="center">
+                <a href="#">
+                    <img id="hak-demo" alt="HAK demo">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="thin">
+
+    <section id="contact">
+        <h2>contact me</h2>
+        <form id="send-email" action="#">
+            <div>
+                <textarea rows="1" cols="50" placeholder="Email address" name="email-address"></textarea>
+            </div>
+
+            <div>
+                <textarea rows="15" cols="50" placeholder="Hello" name="email-content"></textarea>
+            </div>
+            <button>Send email</button>
+        </form>
+    </section>
+</body>
+
+</html>
