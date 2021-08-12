@@ -44,8 +44,13 @@ header {
     margin-top: 0.5em;
 }
 
+nav {
+    height: 2em;
+    margin-bottom: 1em;
+}
 
- header, section, #nav {
+
+ header, section {
     margin-bottom: 5em;
     
  }
@@ -89,6 +94,10 @@ header {
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 img.logos {
     width: 2em;
     margin-left: 0.5em;
@@ -107,7 +116,7 @@ ul.navbar {
     list-style-type: none;
 }
 
-li.navlink {
+ul.navbar li {
     text-decoration: none;
     float: left;
     color: black;
