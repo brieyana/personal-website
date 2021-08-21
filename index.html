@@ -13,13 +13,13 @@
     <header class="center">
         <nav>
             <ul class="navbar left">
-                <a href="#">
-                    <li>home</li>
+                <a href="https://medium.com/@briehaynes9/about" target="_blank">
+                    <li>blog</li>
                 </a>
-                <a href="#">
+                <a href="#projects">
                     <li>projects</li>
                 </a>
-                <a href="#">
+                <a href="#contact">
                     <li>contact</li>
                 </a>
             </ul>
@@ -48,9 +48,13 @@
 
     <section id="projects">
         <h2>projects and experience</h2>
-        <div>
-            <h3>Pet Finder</h3>
-            <p>A web-based application that connects prospective pet owners to local animal shelters.</p>
+        <div class="project">
+            <a href="#" class="link">
+                <h3>Pet Finder</h3>
+            </a>
+            <p>A web-based application that connects prospective pet owners to local animal shelters. It is loosely
+                inspired by applications that use a &#8220;swiping&#8221; mechanism for matching.
+            </p>
             <ul class="tasks">
                 <li>Developed using HTML, CSS, and React</li>
                 <li>Implemented back-end with Axios library
@@ -60,23 +64,22 @@
                 </li>
                 <li>Deployed application using Heroku</li>
             </ul>
-
-            <div class="center">
-                <a href="https://github.com/Codubee/PetFinderTTH2-3" title="GitHub Repo" target="_blank">
-                    <img id="pet-finder-demo" alt="Pet Finder demo">
-                </a>
-            </div>
         </div>
 
-        <div>
-            <h3>HAK</h3>
-            <div class="center">
-                <a href="#">
-                    <img id="hak-demo" alt="HAK demo">
-                </a>
-            </div>
+        <div class="project">
+            <a href="#" class="link">
+                <h3>Beyonce Lyrics Bot</h3>
+            </a>
+            <p>A Twitter bot that posts lyrics from a randomly chosen Beyonce song. Currently
+                the bots only functionality is updating a status.
+            </p>
+            <ul class="tasks">
+                <li>Used Musixmatch&#8217;s API to retrieve artist, album, and track data</li>
+                <li>Used Twitter&#8217;s API to manage Twitter bot actions, such as posting</li>
+                <li>Parsed lyric data into two line stanzas</li>
+                <li>Deployed application on Heroku for timed execution</li>
+            </ul>
         </div>
-
     </section>
 
     <hr class="thin">
@@ -87,11 +90,12 @@
             <div>
                 <textarea rows="1" cols="50" placeholder="Email address" name="email-address"></textarea>
             </div>
-
             <div>
-                <textarea rows="15" cols="50" placeholder="Hello" name="email-content"></textarea>
+                <textarea rows="15" cols="50" placeholder="What&#8217;s up?" name="message"></textarea>
             </div>
-            <button>Send email</button>
+
+
+            <button>Send</button>
         </form>
     </section>
 </body>
