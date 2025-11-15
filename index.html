@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css" />
     <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Brie Haynes</title>
 </head>
-<body>
+<body class="flex justify-center items-center bg-black text-white h-screen">
+    <div id="content" class="flex flex-col gap-12 py-12 px-6">
+        <div class="flex gap-8">
+            <img src="images/my-icon.jpg" class="block w-[175px] h-[175px] rounded-full" />
+            <div class="flex flex-col gap-4 self-center">
+                <h1 class="font-semibold">Brie Haynes</h1>
+                <p class="italic">Software Engineer</p>
+                <p>Dallas, TX</p>
+            </div>
+        </div>
+        <div class="flex gap-12 self-center">
+            <a target="_blank" href="https://github.com/brieyana">GitHub</a>
+            <a target="_blank" href="https://www.linkedin.com/in/brie-haynes7/">LinkedIn</a>
+            <a target="_blank" href="mailto:briehaynes9@gmail.com" rel="noopener noreferrer external">Email</a>
+        </div>
+    </div>
 </body>
 </html>
